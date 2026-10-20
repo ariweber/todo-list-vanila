@@ -1,0 +1,17 @@
+{
+  "name": "todo-list-vanila",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "tsc && npx -y serve ."
+  },
+  "keywords": [],
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
