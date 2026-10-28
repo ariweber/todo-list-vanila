@@ -31,6 +31,7 @@ function handleClearCompleted(): void {
 }
 
 function handleClearAll(): void {
+    if (!confirm("Are you sure you want to delete all tasks?")) return;
     clearAll();
     refresh();
 }
